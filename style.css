@@ -1,0 +1,618 @@
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+margin: 0;
+padding: 0;
+
+
+}
+
+
+
+.nav-item 
+{
+  
+  
+  display: inline-block;
+  
+  text-decoration: none;
+  color: white;
+  top: 3%;
+  font-size: 20PX;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  transition: 0.5s;
+ }
+ .nav-item:hover
+ {
+    color: red;
+ }
+@keyframes animateContainer {
+    0%
+    {
+        top: -8rem;
+
+    }
+    100%
+    {
+        top: 0;
+    }
+}
+.profile
+{
+    width: 20rem;
+    height: 18rem;
+    float: left;
+    border-radius: 50%;
+    margin-top: 7rem;
+
+ margin-left: -3rem;
+      margin-bottom: 10rem;
+      margin-right: 6rem;
+    border-color: red;
+  border-style: solid;
+  border-width: 10px;
+
+
+}
+.profile-pic
+{
+ 
+    padding-left: 7rem;
+    margin-left: 7rem;
+    padding-bottom: 1rem;
+    
+
+
+}
+
+
+
+
+.container
+{
+    right: 0;
+    align-items: center;
+    background-color: black;
+   top: -8rem;
+   position: fixed;
+   z-index: 50;
+  transition: height 0.5s;
+  width: 100%; 
+  margin-bottom: 0;
+  height: 70px;
+  animation: animateContainer 1.5s forwards;
+}
+
+    span {
+color: red;
+font-size: 30px;
+font-weight: bolder;
+text-decoration: none;
+}
+.logo
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 27px;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+
+    
+    
+ 
+.heading
+{
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    padding: 30px;
+    margin-top: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 1px wheat;
+   
+
+}
+.heading1
+{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-align: center;
+   padding-top: 15rem;
+      font-size: 2rem;
+
+  width: 100%;
+  animation: typing 5s steps(22), blink .5s step-end  alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  
+
+
+ }
+
+@keyframes typing {
+  from {
+    width: 0;
+   
+  }
+  to
+  {
+    width: 40%;
+  
+    
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+#prof
+{
+    color: white;
+    padding-top: 3rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-align: center;
+    font-size:2rem;
+}
+.resume-container
+{
+    margin-top: 5rem;
+    
+  
+
+}
+#resume-1
+{
+height: 450px;
+}
+.resume
+{
+    font-size: 1.4rem;
+  color: white;
+    
+    text-decoration: none;
+  margin-top: 5rem;
+ background-color: black;
+ padding: 10px 10px;
+ border-radius: 1.3rem;
+font-weight: bolder;}
+ .resume:hover{
+    background-color: white;
+    box-shadow: 20px 10px white;
+    color: black;
+ }
+
+
+
+.section1
+{
+    background-image: url("images.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+.project-link
+{
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.img
+{
+    text-align: center;
+    border-radius: 70%;
+    width: 190px;
+    margin-top: 60px;
+    height: 190px;
+
+
+}
+
+
+.skill
+{
+    width: 600px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: pink;
+   box-shadow:5px 5px 8px pink ;
+   margin-bottom: 10px;
+}
+.skill p 
+{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.skill i
+{
+float: right;
+color: darkred;
+padding-right: 10px;
+}
+
+
+.qualities
+{
+    display:inline-block;
+    height: 90px;
+    margin: 50px 50px 50px 50px;
+}
+.qualities p
+{
+   color: black;
+    text-align: center;
+    
+    margin-top: 30px;
+    letter-spacing:2px;
+     font-weight: bolder;
+     font-size: 20px;
+     width: 150px;
+
+
+}
+.qualities i
+{
+    background-color: white;
+    WIDTH: 150px;
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow:5px 10px 18px black ;
+
+}
+.quality
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: ;
+    height: 500px;
+    
+}
+.qualities:first-child
+{
+    align-self: flex-start;
+}
+.qualities:last-child
+{
+    align-self: flex-start;
+}
+.section3
+{
+    margin-top: 10rem;
+}
+.project-section
+{
+    height: 600px;
+    width: 100%;
+
+}
+ .aboutme{
+display: inline-block;
+width: 100%;
+height: 100px;
+ }
+ .myinfo
+ {
+    margin-top: 10rem;
+ }
+
+.project1
+{
+   display: inline-block;
+    width: 23%;
+    height: 250px;
+   margin: 3rem 3rem;
+   margin-bottom: 6rem;
+  border-radius: 15PX;
+  transition: 1s;
+  flex-wrap: wrap;
+position: relative;
+
+
+ 
+ 
+      }
+     .story-text{
+     width: 105%;
+     height: 140%;
+     background-color: rgba(253, 69, 69, 0.9);
+     color: white;
+     text-indent: 2rem;
+    top: 0;
+    padding-top: 2rem;
+    bottom: 0;
+    padding: 2rem 2rem 2rem 2rem;
+
+  
+    left: 0;
+    border-radius: 1.3rem;
+    position: absolute;
+    transform: scale(0);
+
+      }
+
+      .project1 h3
+      {
+    text-align: center;
+    margin-top: 4rem;
+      }
+     /* .project1:hover
+      {
+        transform: translateY(10px);
+        box-shadow: 12px 10px 7px black;
+        
+      }*/
+#img1
+{
+  width: 16rem;
+  height: 14rem;
+  
+  margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+}
+#img2
+{
+    width: 16rem;
+    height: 15rem;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+     margin-bottom: 10px;
+      border-radius: 10px;
+}
+#img3
+{
+    width: 16.2rem;
+    margin-top: 1px;
+    height: 15rem;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.story-btn
+{
+background-color: white;
+border-radius: 50%;
+float: right;
+height: 38px;
+width: 40px;
+
+transition: transform .5s;
+margin-top: -22rem;
+
+
+
+}
+#btn2
+{
+    margin-top: -23rem;
+}
+#btn3
+{
+    margin-top: -23rem;
+    margin-left: 3rem;
+}
+#arrow
+{
+
+    background-color: white;
+    font-size: 1.8rem;
+    margin-left: 5px;
+    margin-top: 4px;
+
+}
+.change.story-text
+{
+    transform: scale(1);
+}
+.change.story-btn
+{
+    transform: rotate(405deg);
+}
+
+
+   .contact
+   {
+    display: inline-block;
+    width: 28%;
+   padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    border-radius: 15PX;
+    background-color: ghostwhite;
+     box-shadow:5px 10px 18px black ;
+     height: 10rem;
+   }
+   .contact h4
+   {
+    font-weight: bold;
+   }
+   .contact p 
+   {
+    letter-spacing: 2px;
+   }
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+
+}
+.social-media
+{
+    padding-top: 30px;
+   
+
+}
+.copyright
+{
+padding-top: 40px;
+  
+}
+.scroll-up-btn
+{
+    background-color: lightblue;
+  margin-left: 95%;
+  border-radius: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+  height: 3rem;
+  width: 3rem;
+  position: fixed;
+bottom: 5%;
+right: 5%;
+}
+
+.scroll-up-btn:hover {
+  background-color: #32e7ff;
+
+}
+
+
+  @media only screen and (max-width: 440px)
+  {
+    .nav-item{
+        font-size: 0.2rem;
+    }
+  }
+
+
+
+ 
+    @media only screen and (max-width: 850px)
+{
+    #home
+    {
+        display: none;
+    }
+   
+}
+ @media only screen and (max-width: 1000px)
+      {
+        .story-text
+        {
+            width: 18rem;
+            height: 145%;
+        }
+      }
+      @media only screen and (max-width: 1100px)
+      {
+        #btn3
+        {
+            margin-top: -24.9rem;
+        }
+        #btn2,#btn1
+        {
+            margin-top: -23.8rem;
+        }
+        .profile
+        {
+            margin-left: -12rem;
+        }
+      }
+@media only screen and (max-width: 950px)
+{
+    .quality
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .quality p{
+        font-size: 15px;
+    }
+    .skill
+    
+         {
+        width: 20rem;
+    }
+    .contact
+    {
+        width: 20rem;
+    }
+    .project1
+    {
+        height: 15rem;
+        width: 15rem;
+        margin-right: 60px;
+    }
+   .span{
+    font-size: 12px;
+
+   }
+.logo
+{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.nav-item
+{
+    font-size: 16px;
+    margin-left: 10px;
+}
+    }
+    @media only screen and (max-width: 725px)
+    {
+        #contact-info
+    {
+        margin-top: 500px;
+    }
+    .heading1
+    {
+        font-size: 2rem;
+    }
+    #prof
+    {
+        font-size: 2.2rem;
+    }
+    .profile
+    {   
+        width: 14rem;
+        height: 17rem;
+    }
+  
+  @media only screen and (max-width: 560px)
+
+{
+     .heading1
+    {
+        font-size: 1.4rem;
+    }
+    
+}
+  @media only screen and (max-width: 400px)
+
+{
+     .heading1
+    {
+        font-size: 1.0rem;
+    }
+}
